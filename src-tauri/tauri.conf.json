@@ -7,10 +7,14 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "tauri",
-    "version": "0.0.0"
+    "productName": "tufu",
+    "version": "0.0.1"
   },
   "tauri": {
+    "systemTray": {
+      "iconPath": "icons/pomodoro.png",
+      "iconAsTemplate": true
+    },
     "allowlist": {
       "all": false,
       "shell": {
@@ -21,7 +25,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.tauri.dev",
+      "identifier": "com.tufu.dev",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",

@@ -1,7 +1,8 @@
-# @elm-land/tauri
-> Use [Tauri](https://tauri.app/) to build desktop apps with Elm Land!
+# Tufu 
 
-![Screenshot of Tauri and Elm Land working together](./static/screenshot.png)
+Pomodoro technique tracker that connects to where your tasks are.
+
+
 
 ## Local development
 

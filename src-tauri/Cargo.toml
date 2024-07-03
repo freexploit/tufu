@@ -1,21 +1,21 @@
 [package]
-name = "tauri"
-version = "0.0.0"
-description = "A Tauri App"
-authors = ["you"]
-license = ""
+name = "tufu"
+version = "0.0.1"
+description = "A Pomodoro App"
+authors = ["Christopher Valerio"]
+license = "GPL-3"
 repository = ""
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [build-dependencies]
-tauri-build = { version = "1.4", features = [] }
+tauri-build = { version = "1.5.3", features = [] }
 
 [dependencies]
-tauri = { version = "1.4", features = ["shell-open"] }
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
+tauri = { version = "1.7.1", features = [ "system-tray", "shell-open"] }
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = "1.0.120"
 
 [features]
 # this feature is used for production builds or when `devPath` points to the filesystem
